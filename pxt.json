@@ -1,0 +1,31 @@
+{
+    "name": "Holiday Bow Battle!",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-mp": "github:riknoll/arcade-mp",
+        "arcade-carnival": "github:microsoft/arcade-carnival"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "tutorial.custom.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.11.37",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
